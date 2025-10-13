@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://ec2-54-243-1-144.compute-1.amazonaws.com:8082/api/v1",  // backend base URL
+  baseURL: "http://ec2-100-26-204-200.compute-1.amazonaws.com:8082/api/v1",  // backend base URL
   timeout: 10000, // 10s request timeout
   headers: {
     "Content-Type": "application/json",
